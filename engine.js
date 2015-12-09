@@ -35,7 +35,7 @@ $(document).ready(function() {
         });
         $("#lousa #imagem").html(img_tag);
         $("#lousa h1").html($(this).html());
-        $.post(url,null, function(resposta){
+        $.get(url,null, function(resposta){
             $("#lousa #texto").empty();
             $("#lousa #texto").append(resposta);
         });
