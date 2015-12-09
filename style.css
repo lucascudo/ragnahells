@@ -1,0 +1,87 @@
+/* 
+    Document   : style
+    Created on : 07/11/2012, 08:26:14
+    Author     : lucas
+    Description:
+        Template de estilo.
+*/
+
+root
+{ 
+    display: block;
+}
+body
+{
+    background-color: #542f27;
+    /* background-image: url("img/bg.jpg"); */
+    color: tan;
+    text-align: center;
+}
+header#logo
+{
+    margin-top: 32px;
+}
+section#corpo
+{
+    margin: 0 auto;
+    margin-top: 16px;
+    width: 956px;
+    background-image: url("img/frame.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+header#timao
+{
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bold;
+    height: 43px;
+    padding-top: 16px;
+    border-width: 0px;
+}
+header#timao nav a
+{
+    margin: 16px;
+    color: #cccccc;
+    text-decoration: none;
+}
+header#timao nav a:hover
+{
+    color: tan;
+}
+section#lousa
+{
+    text-align: left;
+    padding: 16px;
+    margin-top: 5px;
+    margin-left: 45px;
+    border-width: 0px;
+    width: 833px;
+    background-color: white;
+    color: black;
+    display: table;
+}
+section#lousa h1
+{
+    display: table-row;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0px;
+}
+section#lousa #texto
+{
+    vertical-align: top;
+    display: table-cell;
+}
+section#lousa #imagem
+{
+    right: 0;
+    text-align: right;
+    display: table-cell;
+}
+footer#copyright
+{
+    vertical-align: top;
+    font-weight: bold;
+    text-align: center;
+}
